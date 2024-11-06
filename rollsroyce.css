@@ -12,6 +12,8 @@
     background-size: cover;
 }
 .nevbar{
+    background-color: rgba(249, 249, 249, 0.163);
+    backdrop-filter: blur(15px);
     position: fixed;
     display: flex;
     align-items: center;
@@ -70,6 +72,16 @@ p2{
     background-image: url(https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/1-0-home/images/phantom-goldfinger/D-HERO-02-GF-HP.jpg/jcr:content/renditions/cq5dam.web.2880.webp);
     background-size: cover;
 }
+navbar2{
+    background-color: rgba(249, 249, 249, 0.163);
+    backdrop-filter: blur(15px);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 120px;
+    border: 1px transparent;
+    width: 100vw;
+}
 p3{
     display: flex;
     align-items: center;
@@ -120,7 +132,6 @@ p5{
     width: 250px;
     border-radius: 20px;
     background-color: white;
-    
 }
 h5{
     letter-spacing: 1px;
