@@ -1,0 +1,215 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(249, 249, 249, 0.163);
+    backdrop-filter: blur(15px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 0 60px;
+    width: 100%;
+    z-index: 999;
+}
+
+.menu, .search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.firstpage, .secondpage, .thirdpage {
+    height: 680px;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.firstpage {
+    background-image: url('https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/1-0-home/images/phantom-goldfinger/D-HERO-01-GF-HP.jpg/jcr:content/renditions/cq5dam.web.2880.webp');
+}
+
+.secondpage {
+    background-image: url('https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/1-0-home/images/phantom-goldfinger/D-HERO-02-GF-HP.jpg/jcr:content/renditions/cq5dam.web.2880.webp');
+}
+
+.thirdpage {
+    background-image: url('https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/1-0-home/images/phantom-goldfinger/D-HERO-03-GF-HP.jpg/jcr:content/renditions/cq5dam.web.2880.webp');
+}
+
+.hero-text, .text {
+    padding-top: 200px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.headline {
+    font-size: 4.5rem;
+    letter-spacing: 25px;
+}
+
+.subheadline {
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+    margin-top: 10px;
+}
+
+.discover {
+    margin-top: 30px;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ccc;
+}
+
+.explore {
+    background-color: rgb(21, 21, 21);
+    text-align: center;
+    padding: 100px 20px 20px;
+}
+
+.explore h3 {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.explore p {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+}
+
+.photos {
+    display: flex;
+    background-color: rgb(21, 21, 21);
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 410px;
+    color: white;
+}
+
+.photo {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.photo1 {
+    background-image: url('https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/2-2-6-inspiring-greatness-series/phantom-goldfinger/pg-properties/TILE-GF-IG-SINGLE-1_1.jpg/jcr:content/renditions/cq5dam.web.1920.webp');
+}
+
+.photo2 {
+    background-image: url('https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/phantom-extended-series-ii-discover/page-properties/Phantom-II-EXT-Discover-Hero-Single-Card.jpg/jcr:content/renditions/cq5dam.web.1920.webp');
+}
+
+.photo3 {
+    background-image: url('https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/4-0-bespoke/page-properties/rolls-royce-bespoke-single-card.jpg/jcr:content/renditions/cq5dam.web.1920.webp');
+}
+
+.text-block {
+    margin-top: 20px;
+}
+
+.text-block h4 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.text-block p {
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+}
+
+.footer {
+    background-color: rgb(21, 21, 21);
+    padding: 20px 60px;
+    color: white;
+}
+
+.footer .second {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    opacity: 0.5;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+.footer .second p {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.footer-note {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    opacity: 0.5;
+}
+
+.icon i {
+    font-size: 20px;
+    color: white;
+}
